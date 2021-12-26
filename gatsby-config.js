@@ -1,8 +1,11 @@
 module.exports = {
   plugins: [
+    "gatsby-plugin-theme-ui",
     {
       resolve: `gatsby-theme-blog`,
-      options: {},
+      options: {
+        basePath: `/blog`,
+      },
     },
   ],
   // Customize your site metadata:
@@ -21,4 +24,4 @@ module.exports = {
       },
     ],
   },
-}
+};

@@ -12,5 +12,14 @@ export default () => (
     goes.
     <br />
     Or whatever, you make the rules.
+    <div>
+      <ul>
+        <li>Homepage</li>
+        <li>About us</li>
+        <li>Drinks</li>
+        <li>Recommendations</li>
+        <li>Blog</li>
+      </ul>
+    </div>
   </Fragment>
 )
